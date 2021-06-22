@@ -18,7 +18,8 @@ const Entry = new Schema(
   {
     distance: { type: String, required: true },
     duration: { type: String, required: true },
-    calories: { type: String, required: true }
+    calories: { type: String, required: true },
+    date: { type: String, required: true }
   },
   { timestamps: true }
 )
